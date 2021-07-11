@@ -1,0 +1,46 @@
+          
+/* Common for all web pages Navbar and footer css */
+
+
+ul{
+    list-style-type: none;
+    margin-top: 60px;
+}
+li{
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+
+}
+ li a{
+    text-decoration: none;
+    color:brown;
+    padding: 20px 20px;
+}
+li a:hover{
+    background-color: darkcyan;
+    color: darkgreen;
+}
+#contact{
+    background-color: chartreuse;
+    color: coral;
+}
+a:hover:not(.active){
+    background-color: darkslategray;
+    color: bisque;
+}.socialmedia{
+    margin-left: 650px; 
+    font-size: 18px;
+    color: rgb(102, 33, 13);
+    margin-top: 20px;
+    font-weight: bold;
+} 
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(164, 214, 106);
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}  

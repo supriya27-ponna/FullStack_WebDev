@@ -1,0 +1,162 @@
+body{
+background-image: url('backgrounds/contact.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+
+}
+li{
+    padding: 20px;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color:darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+li a:hover{
+    background-color: darkcyan;
+    color: darkgreen;
+    border-radius: 15px;
+}
+#contact{
+    background-color:chartreuse;
+    color: coral;
+    border-radius: 15px;
+
+}
+.nav a:hover:not(.active){
+    background-color:lightslategray;
+    color: bisque;
+    border-radius: 15px;
+
+}
+
+h3{
+    font-family:sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(179, 47, 124);
+    text-align: center;
+}
+h4{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(179, 47, 124);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+   
+    
+}
+.form{
+    width: 700px;
+    height: 800px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+input[type=text]
+{
+    background: url('icons/profile.png') no-repeat right;
+    background-color: white;
+    width: 200px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid grey;
+    margin-top: 20px;
+}
+input[type=email]
+{
+    background: url('icons/gmail.png') no-repeat right;
+    width: 540px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid grey;
+    background-color: white;
+    margin: 20px;
+    margin-left: 40px;
+}
+input[type=submit]
+{
+    width: 100px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid grey;
+    background-color:mediumblue;
+    color:white;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+input[type=tel]
+{
+    background: url('icons/telephone.png') no-repeat right;
+    background-color: white;
+    width: 540px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid grey;
+    margin:10px;
+    margin-left: 40px;
+}
+
+textarea{
+    width: 650px;
+    height: 200px;
+    border-radius:5px;
+    border:1px solid grey;
+    margin-left: 30px;
+}
+#td_topic
+{
+    margin-top: 50px;
+}
+
+#topic
+{
+    width: 630px;
+    height: 45px;
+   border-radius: 5px;
+    margin-left: 50px;
+}
+#follow
+{
+    width: 650px;
+    height: 45px;
+    border-radius:5px;
+    border:1px solid grey;
+    margin-left: 35px;
+}
+label{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding:12px;
+}
+.socialmedia{
+    margin-left: 650px; 
+    font-size: 18px;
+    color: rgb(102, 33, 13);
+    margin-top: 20px;
+    font-weight: bold;
+} 
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(164, 214, 106);
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}  

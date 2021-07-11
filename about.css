@@ -1,0 +1,78 @@
+body{
+    background:url(images/Food/shakes.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+ul{
+    list-style-type: none;
+    margin-top: 50px;
+    display: flex;
+
+}
+li{
+    padding: 20px;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color:gold;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+li a:hover{
+    background-color: darkcyan;
+    color: darkgreen;
+    border-radius: 15px;
+}
+#about{
+    background-color:chartreuse;
+    color: coral;
+    border-radius: 15px;
+
+}
+
+.block h1{
+    color:brown;
+    margin-top: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.block{
+    /* background-color:indianred; */
+    /* border-radius: 10px;
+    border:2px solid lightgreen; */
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 400px;
+}
+.content p{
+    color:rgb(248, 217, 217);
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 40px;
+    margin-top: 30px ;
+    margin-left: 60px;
+    line-height: 27px;
+    word-spacing: 3px;
+}
+.socialmedia{
+    margin-left: 650px; 
+    font-size: 18px;
+    color:yellow;
+    margin-top: 20px;
+    font-weight: bold;
+} 
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(159, 207, 105);
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}  
